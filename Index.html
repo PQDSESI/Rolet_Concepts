@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolet-Concept</title>
+    <link rel="stylesheet" href="./Styles/Global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Rolet-Concept</h1>
+    </header>
+    <div class="button-rolets-menu">
+      <button class="button-rolets">
+        <span
+          class="material-symbols-outlined"
+          style="font-size: 50px; opacity: 0.7"
+        >
+          dataset
+        </span>
+      </button>
+    </div>
+
+    <section class="rolets-text-random">
+      <div class="maquina">
+        <h1 class="titulo">Rolet A Concept</h1>
+        <div class="rolets-Item">
+          <input id="InputDeTexto" type="text" />
+        </div>
+        <div class="rolets-Item-button">
+        <button class="rolets-adicionar">Adicionar</button>
+        <button class="rolets-list">
+          <span class="material-symbols-outlined" style="margin: auto;"> content_paste </span>
+        </button>
+        </div>
+        <div class="visor">
+          <span id="resultado">?</span>
+        </div>
+
+        <div class="opcoes">
+          <button>Opção 1</button>
+          <button>Opção 2</button>
+          <button>Opção 3</button>
+        </div>
+
+        <button class="sortear">GIRAR</button>
+      </div>
+    </section>
+    <script type="module" defer src="./Scripts/AdicionarOpcao.js"></script>
+  </body>
+</html>
